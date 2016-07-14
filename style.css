@@ -1,3 +1,67 @@
+@font-face {
+	font-family: 'Roboto';
+	font-weight: normal;
+	src: url('fonts/roboto-regular.ttf');
+}
+@font-face {
+	font-family: 'Titillium';
+	src: url('fonts/titillium.ttf');
+}
+
 body {
-    background-color: #333;
+	background-color: #f2f2f2;
+	margin: 0;
+	font-family: 'Roboto';
+	color: #333;
+}
+
+#header {
+	background: radial-gradient(circle, #4d79ff, #3d61cc);
+	color: #FFF;
+}
+
+#title {
+	text-align: center;
+	font-family: 'Titillium';
+	font-size: 120px;
+	padding: 60px 0;
+}
+
+#navigation {
+	background: rgba(0, 0, 0, 0.8);
+}
+#navigation ul {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+#navigation li {
+	list-style-type: none;
+	display: inline-block;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 30px;
+	font-size: 18px;
+}
+#navigation li.active {
+	border-bottom: 4px solid #4d79ff;
+	height: 56px;
+}
+
+#content {
+	margin: 0 auto;
+	width: 800px;
+}
+h1, h2, h3 {
+	font-weight: normal;
+}
+h1 {
+	font-size: 60px;
+	padding: 6px 30px;
+	margin: 60px 0 30px;
+	border-left: 4px solid #4d79ff;
+	color: #4d79ff;
+}
+p {
+	margin: 10px 0;
 }
